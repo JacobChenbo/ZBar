@@ -100,7 +100,7 @@ Pod::Spec.new do |s|
     "iphone/*.m"
     # s.exclude_files = "ZGB_Module_Common/Exclude"
     s.resources = "iphone/res/{zbar-*.png,zbar-help.html}"
-    s.prefix_header_file = "iphone/include/prefix.pch",
+    s.prefix_header_file = "iphone/include/prefix.pch"
     s.public_header_files = "iphone/**/**/*.h",
     "include/*.h"
     
