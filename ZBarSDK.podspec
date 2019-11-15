@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
     #
     
     s.name         = "ZBarSDK"
-    s.version      = "1.3.1"
+    s.version      = "1.4.1"
     s.summary      = "QR and barcode scan library"
     
     # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
     #  Supports git, hg, bzr, svn and HTTP.
     #
     
-    s.source       = { :git => "https://github.com/JacobChenbo/ZBar.git", :branch => "#{s.version}" }
+    s.source       = { :git => "https://github.com/JacobChenbo/ZBar.git", :tag => "iPhoneSDK-1.4.1" }
     
     
     # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -101,8 +101,7 @@ Pod::Spec.new do |s|
     # s.exclude_files = "ZGB_Module_Common/Exclude"
     s.resources = "iphone/res/{zbar-*.png,zbar-help.html}"
     s.prefix_header_file = "iphone/include/prefix.pch"
-    s.public_header_files = "iphone/**/**/*.h",
-    "include/*.h"
+    s.public_header_files = "iphone/**/**/*.h", "include/*.h"
     
     
     # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -132,7 +131,7 @@ Pod::Spec.new do |s|
     "CoreVideo",
     "QuartzCore"
     
-    # s.library   = "iconv"
+    s.library   = "iconv"
     # s.libraries = "iconv", "xml2"
     # s.vendored_frameworks = "ZGB_Module_Common/**/*.framework"
     # s.vendored_libraries = "ZGB_Module_Common/**/*.a"
