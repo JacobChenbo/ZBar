@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
     #
     
     s.name         = "ZBarSDK"
-    s.version      = "1.3.1"
+    s.version      = "1.4.2"
     s.summary      = "QR and barcode scan library"
     
     # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
     #  Supports git, hg, bzr, svn and HTTP.
     #
     
-    s.source       = { :git => "https://github.com/JacobChenbo/ZBar.git", :branch => "1.3.1" }
+    s.source       = { :git => "https://github.com/JacobChenbo/ZBar.git", :tag => "iPhoneSDK-1.4.2" }
     
     
     # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
